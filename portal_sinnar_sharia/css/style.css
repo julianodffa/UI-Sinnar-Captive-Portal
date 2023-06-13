@@ -1,0 +1,98 @@
+.bg-body-sharia {
+    /* background: linear-gradient(to top right, #fff, #fff); */
+    /* background: rgb(1, 1, 73); */
+    /* background: linear-gradient(90deg, rgba(35, 70, 112, 1) 5%, rgba(113, 213, 189, 1) 100%); */
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.bg-sharia {
+    background-image: linear-gradient(to right bottom, #b930c4, #a32eb7, #8d2baa, #79279c, #65238e, #602091, #5b1d93, #551a96, #5b17ab, #6012c1, #6d2dc5, #6600ef);
+}
+
+.logo-sharia {
+    width: 80%;
+    height: 100%;
+}
+
+.text-sharia {
+    font-weight: bolder;
+    font-family: 'Lato';
+    font-size: medium;
+    color: #2186cd;
+}
+
+.btn-watch-movie {
+    opacity: .7;
+    transition: .2s !important;
+    color: rgb(146, 140, 140) !important;
+    border: .5px solid rgb(97, 95, 95) !important;
+}
+
+.btn-watch-movie:hover {
+    opacity: 1;
+    color: white !important;
+    border: 1px solid white !important;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.term-of-use-sharia {
+    border-radius: 20px;
+}
+
+.text-pt {
+    font-size: 10px;
+}
+
+@media screen and (min-width: 400px) {
+    .logo-sharia {
+        width: 70%;
+        height: 100%;
+    }
+
+    .text-sharia {
+        font-weight: bold;
+        font-family: "Lato", sans-serif;
+        font-size: medium;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .logo-sharia {
+        width: 50%;
+        height: 100%;
+    }
+
+    .text-pt {
+        font-size: 14px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .logo-sharia {
+        width: 30%;
+        height: 100%;
+    }
+
+    .text-sharia {
+        font-weight: bold;
+        font-family: "Lato", sans-serif;
+        font-size: 25px;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .logo-sharia {
+        width: 40%;
+        height: 100%;
+    }
+
+    .text-sharia {
+        font-weight: bold;
+        font-family: "Lato", sans-serif;
+        font-size: 30px;
+    }
+}

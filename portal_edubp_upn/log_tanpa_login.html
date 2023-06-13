@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pustakadigital.id</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script>
+
+        function toggleCheckbox(element) {
+            document.getElementById("_freewifibtn").disabled = !element.checked;
+        }
+
+        function toggleCheckbox(element) {
+            document.getElementById("_freewifibtn").disabled = !element.checked;
+        }
+
+        function myFunction() {
+            location.replace("http://pustakadigital.id:8080/edubp/")
+        }
+    </script>
+</head>
+
+<body class="bg-body-edubp">
+    <div class="h-100 d-flex justify-content-center align-items-center column flex-column">
+        <div class="text-center mt-4">
+            <img class="logo-edubp" src="image/logo-upn.png">
+        </div>
+
+        <div class="row justify-content-center text-center text-white">
+            <div class="col-lg-8 p-3">
+                <div class="row" style="padding: 0px 10% 0 10%;">
+                    <p class="shadow py-4 rounded fw-bold">Selamat datang di Perpustakaan Digital.</p>
+                        <button id="_freewifibtn"
+                            class="btn btn-transparent shadow-lg text-white border-light fw-bold py-3 mb-3" type="submit"
+                            disabled onclick="myFunction()">Telusuri Perpustakaan Digital</button>
+                        <p class="shadow py-4 rounded fw-bold"><input type="checkbox" onchange="toggleCheckbox(this)">
+                            Dengan mengeklik tautan ini, Anda menyetujui Ketentuan Penggunaan kami.</p>
+                        <p class="text-warning" style="font-size: 10px; text-align: end;">PT. Sinnar x PT. Balai Pustaka</p>
+                    </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
